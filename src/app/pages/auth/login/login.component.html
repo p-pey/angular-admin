@@ -1,1 +1,27 @@
-<p>login works!</p>
+<form class="form" (submit)="onFormSubmit($event)">
+       <div class="formInputsWrapper">
+              <div class="inputWrapper">
+                     <label>
+                            Email
+                     </label>
+                     <input name="email" type="email" [value]="values.email" #email (change)="onInputValueChange('email', email.value)" />
+              </div>
+              <div class="inputWrapper">
+                     <label>
+                            Password
+                     </label>
+                     <input 
+                     name="password"
+                     type="password" 
+                     [value]="values.password" 
+                     #password 
+                     (change)="onInputValueChange('password', password.value)" 
+                     />
+              </div>
+       </div>
+       <div>
+              <button type="submit">
+                     Login
+              </button>
+       </div>
+</form>
