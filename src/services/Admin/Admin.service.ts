@@ -1,4 +1,4 @@
 
 
 
-export class UserService {};
+export class AdminService {};

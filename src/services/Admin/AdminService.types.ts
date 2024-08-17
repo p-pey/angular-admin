@@ -2,7 +2,7 @@
 
 
 export interface IUserService {
-       session
+       session: {}
 };
 
 export enum ERoles {

@@ -31,9 +31,18 @@
                 "input": "public"
               }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src",
+                "src/styles",
+                "src/styles/variables",
+                "src/app/components"
+              ]
+            },
             "styles": [
-              "src/styles.scss"
-            ],
+              "src/styles.scss",
+              "src/styles/index.scss"
+            ],  
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,

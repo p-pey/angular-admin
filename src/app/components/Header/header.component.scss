@@ -1,0 +1,18 @@
+
+
+.header {
+       height: $header;
+       padding: $lg;
+       border-bottom: $one solid $secondary-white;
+
+       .navbar {
+              display: flex;
+              align-items: center;
+              .admin-profile {
+                     margin-left: auto;
+                     padding: $md;
+                     background-color: $primary-white;
+              }
+       }
+
+};

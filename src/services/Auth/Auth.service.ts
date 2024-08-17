@@ -3,6 +3,7 @@ import { IAuthService, TLogin, TLoginResult } from "./AuthService.types";
 
 
 export class AuthService implements IAuthService {
+       
        login(inputs: TLogin): Promise<TLoginResult> {
            return Promise.resolve({ 
               data: {

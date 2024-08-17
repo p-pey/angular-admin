@@ -2,10 +2,10 @@ import { ActivatedRouteSnapshot, CanActivate, GuardResult, MaybeAsync, RouterSta
 import { IAuthService } from './AuthService.types';
 
 
-export class AuthService implements CanActivate {
+export class ProtectorService implements CanActivate {
        constructor(AuthService: IAuthService) {};
 
        canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): MaybeAsync<GuardResult> {
-           
+           return true;
        }
 }

@@ -1,4 +1,7 @@
 {
        "editor.fontWeight": "650",
-       "editor.fontSize": 15
+       "editor.fontSize": 15,
+       "eslint.codeActionsOnSave.rules": null,
+       "vs-code-prettier-eslint.prettierLast": true,
+       "eslint.run": "onSave"
 }
