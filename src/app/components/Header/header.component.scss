@@ -1,9 +1,10 @@
-
+@import "../../../styles/index.scss";
 
 .header {
        height: $header;
-       padding: $lg;
+       padding: $md;
        border-bottom: $one solid $secondary-white;
+       box-shadow: $primary-shadow;
 
        .navbar {
               display: flex;

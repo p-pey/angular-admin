@@ -1,0 +1,23 @@
+@import '../../../styles/index.scss';
+
+.sidebar {
+  width: $sidebar;
+  .sidebarItemsList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: $sm;
+    margin-top: $header;
+    li {
+      a {
+        display: block;
+        padding: $md $xlg;
+        text-decoration: none;
+        color: $primary-black;
+        &:hover {
+          background-color: $secondary-white;
+        }
+      }
+    }
+  }
+}

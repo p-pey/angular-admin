@@ -1,4 +1,14 @@
+@import "../styles/index.scss";
 
+.app {
+       display: grid;
+       grid-template-columns: $sidebar 1fr;
+       grid-template-rows: 1fr;
+        > div {
+              display: grid;
+              grid-template-rows: $header 1fr;
+        }
+}
 
 
 
