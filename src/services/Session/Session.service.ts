@@ -12,6 +12,9 @@ export class SessionService {
        static async getSession(): Promise<ISession | null> {
            return Promise.resolve(null);
        };
+       static async getSessionJWTToken(): Promise<string | null> {
+              
+       }
        static async setSession(): Promise<ISession> {
            return Promise.resolve({ email: '', firstName: '', lastLogin: 0, lastName: '', expired: 0 });
        };

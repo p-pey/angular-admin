@@ -1,3 +1,17 @@
+import { sign, decode, verify } from 'jsonwebtoken'
 
+export class JwtService {
+       private secretKey: string | undefined;
 
-export class JwtService {};
+       constructor() {
+              this.secretKey = process.env['SECRET'];
+       }
+
+       static encodeToken() {
+
+       };
+
+       static decodeToken(payload: object) {
+
+       }
+};

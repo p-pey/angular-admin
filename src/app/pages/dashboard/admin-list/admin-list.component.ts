@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-admin-list',
@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
   templateUrl: './admin-list.component.html',
   styleUrl: './admin-list.component.scss'
 })
-export class AdminListComponent {
-
+export class AdminListComponent implements OnInit {
+  private readonly service: 
+  ngOnInit(): void {
+      
+  }
 }

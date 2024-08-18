@@ -18,12 +18,12 @@ export const routes: Routes = [
        },
        {
               title: "Admin List",
-              path: "/admin-list",
+              path: "admins-list",
               component: AdminListComponent
        },
        {
               title: "Setting",
-              path: "/setting",
+              path: "setting",
               component: SettingComponent
        }
 ];
